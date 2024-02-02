@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Instantiate the MathOperationClass
+        MathOperationClass mathOperationInstance = new MathOperationClass();
+
+        // Call the method in the class, passing in two numbers.
+        mathOperationInstance.PerformMathOperation(5, 20);
+
+        // Call the method in the class, specifying the parameters by name.
+        mathOperationInstance.PerformMathOperation(firstNumber: 8, secondNumber: 30);
+    }
+}

@@ -1,0 +1,15 @@
+using System;
+
+public class MathOperationClass
+{
+    // A void method that takes two integers as parameters,
+    // performs a math operation on the first integer, and displays the second integer to the screen.
+    public void PerformMathOperation(int firstNumber, int secondNumber)
+    {
+        // Perform a simple addition operation on the first integer
+        int result = firstNumber + 10;
+
+        // Display the second integer to the screen
+        Console.WriteLine($"Result: {result}, Displayed Number: {secondNumber}");
+    }
+}
